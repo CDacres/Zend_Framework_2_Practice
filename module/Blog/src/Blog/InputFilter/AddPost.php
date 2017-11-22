@@ -2,11 +2,12 @@
 
 namespace Blog\InputFilter;
 
-use Zend\Filter\StringTrim;
 use Zend\Filter\FilterChain;
+use Zend\Filter\StringTrim;
 use Zend\I18n\Validator\Alnum;
-use Zend\InputFilter\Input;
 use Zend\InputFilter\InputFilter;
+use Zend\InputFilter\Input;
+use Zend\Validator\Regex;
 use Zend\Validator\StringLength;
 use Zend\Validator\ValidatorChain;
 
